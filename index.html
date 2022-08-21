@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pl" style="padding: 0px;height:100%;width: 100%;" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <title>Updent - Prywatna praktyka stomatologiczna</title>
+<link rel="icon" type="image/x-icon" href="img/logo.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<meta name="format-detection" content="telephone=no">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body onload="createCookiePL();">
+        <a id="main"></a>
+        <div class="background" id="background">
+        <nav class="navbar navbar-light navbar-expand-xl">
+                                <a class="navbar-brand"><img class="logo" src="img/logo.jpg"></a>
+                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                                            <span class="navbar-toggler-icon">
+                                                <i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
+                                            </span>
+                                    </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active" id="animated">
+                            <a class="nav-link marginfirst" href="#main">Strona główna&nbsp;</a>
+                        </li>
+                        <li class="nav-item active" id="animated">
+                            <a class="nav-link" href="#AboutUS">O mnie&nbsp;</a>
+                        </li>
+                        <li class="nav-item active" id="animated">
+                            <a class="nav-link" href="#Offer">Oferta&nbsp;</a>
+                        </li>
+                        <li class="nav-item active" id="animated">
+                            <a class="nav-link" href="#PriceList">Cennik&nbsp;</a>
+                        </li>
+                        <li class="nav-item active" id="animated">
+                            <a class="nav-link" href="#Contact">Kontakt&nbsp;</a>
+                        </li>
+                        <li class="nav-item active" id="unanimated">
+                            <a class="nav-link" href="index.html"
+                            id="languagePL" >
+                                <div class="PL">
+                                    <img src="img/pl.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item active" id="unanimated">
+                            <a class="nav-link" href="en/index.html" id="languageEN">
+                                <div class="PL">
+                                    <img src="img/eng.jpg">
+                                </div>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+        </nav>
+        <div class="Header">
+            <h1>Masz <b>32</b> powody, <br>aby się z nami skontaktować.</h1>
+            <button onclick="location.href='#AboutUS'">Dowiedz się więcej</button>
+            <br>
+        </div>
+    
+    </div>
+    <a id="AboutUS"></a>
+    <div class="AboutUS">
+    <div class="AboutUSHeader">
+        <bR>
+        <br>
+        <h1>O MNIE</h1>
+        <div class="underline"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="AboutUSIMG col-lg-6 py-4 reveal">
+                    <br>
+                    <img src="img/dentist.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="AboutUSTEXT col-lg-6 py-5 reveal">
+                        <br>
+                        <h1>Lek. dent. Kinga Chodór</h1> 
+                        <br>
+                        <p style="text-align:center">Jestem absolwentką Śląskiego Uniwersytetu Medycznego w Zabrzu oraz Vienna School of Interdisciplinary Dentistry.
+                        W mojej praktyce zajmuję się stomatologią zachowawczą, endodoncją, protetyką, a moją największą zawodową pasją jest leczenie dysfunkcji układu ruchowego narządu żucia, postępowanie w bruksizmie i leczenie jego powikłań.
+                         Stale podnoszę swoje kwalifikacje na szkoleniach w kraju i zagranicą.
+                         W trakcie VieSID Continuum "Orthognatodontic Clinical Course" follows the orthodontic concept of Prof. Sadao Sato
+                         Prywatnie trenuję crossfit i w wolnym czasie podróżuję.
+            </div>
+        </div>
+    </div>
+    </div>
+    <a id="Offer">
+    <div class="Offer">
+        <div class="OfferHEADER">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>NASZE USŁUGI DENTYSTYCZNE</h1> <BR>
+            <h2>Oferujemy Tobie i Twojej rodzinie pełen zakres usług dentystycznych.</h2>
+            <div class="underline"></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="offerTEXT col-lg-4 reveal">
+                    <div id="box">
+                        <h2>Stomatologia zachowawcza</h2>
+                        <p>Zajmuje się leczeniem próchnicy zębów, powstającej w wyniku oddziaływania na nie bakterii próchnicotwórczych.
+                        Bakterie powodują niszczenie szkliwa oraz tkanek położonych niżej, wskutek czego powstaje tzw. ubytek.
+                        Leczenie próchnicy najczęściej przeprowadzane jest w znieczuleniu miejscowym. Zabieg polega na oczyszczeniu ubytku z obecnych w nim bakterii i odbudowaniu zniszczonej części zęba za pomocą wypełnienia. <br>W zależności od rozległości ubytku, wyleczenie jednego zęba
+                        z próchnicy może trwać od 30 do 60 minut</p>
+                        </div>
+                </div>
+                <div class="offerTEXT col-lg-4 reveal">
+                    <div id="box">
+                        <h2>Endodencja</h2>
+                        <p>
+                        Leczenie kanałowe, czyli endodontyczne jest wykonywane gdy dojdzie do zakażenia lub zapalenia miazgi. Przyczyn takiego stanu może być wiele, najczęściej wymienia się próchnicę, wielokrotnie wykonywane zabiegi na tym konkretnym zębie, a także pęknięcie lub złamanie zęba. Rozwijającemu się stanowi zapalnemu towarzyszy silny ból.
+                        <br> 
+                        <br>
+                        <b>Wskazania do leczenia kanałowego:</b> <br>
+                        - zapalenie miazgi<br>
+                        - martwica miazgi <br>
+                        - niedopełnione kanały korzeniowe <br> 
+                        - zmiany okołowierzchołkowe
+                        </p>
+                    </div>
+                </div>
+                <div class="offerTEXT col-lg-4 reveal">
+                    <div id="box">
+                        <h2>Protetyka</h2>
+                        <p>Protetyka stomatologiczna jest to dział stomatologii zajmujący się uzupełnianiem braków w uzębieniu, odbudową obszernych defektów pojedynczych zębów jak również poprawą estetyki istniejącego uzębienia.
+                         Doświadczenie kliniczne, szkolenia oraz współpraca z wiodącymi pracowniami protetycznymi pozwala nam zaoferować najwyższej jakości uzupełnienia protetyczne, zarówno ruchome jak i stałe.</b> <br>
+                        <br><b>W naszej ofercie znajdą Państwo m.in.:</b>
+                        <br> -licówki pełnoceramiczne
+                        <br>-korony i mosty metalowo- porcelanowe oraz pełnoceramiczne,
+                        <br>-uzupełnienia typu inlay/ onlay/ overlay
+                        <br>-odbudowy implantoprotetyczne
+                        <br>-protezy ruchome akrylowe i szkieletowe
+                        </p>
+                    </div>
+                </div>
+                <div class="offerTEXT col-lg-4 reveal">
+                    <div id="box">
+                        <h2>Stomatologia estetyczna</h2>
+                        <p>To dział stomatologii zajmujący się poprawieniem wyglądu zębów. Lekarz stomatolog estetyczny pomaga ocenić zaburzenie ich estetyki oraz proponuje dostępne rozwiązania problemu dopasowane do danej osoby. Można powiedzieć, że dziedzina ta umożliwia przywrócenie pięknego uśmiechu.
+                        </p>
+                    </div>
+            </div>
+            <div class="offerTEXT col-lg-4 reveal">
+                <div id="box">
+                    <h2>Chirurgia stomatologiczna </h2>
+                    <p> To obszerna dziedzina stomatologii zabiegowej,
+                    do której należą m.in. ekstrakcje zębów. Dzięki wieloletniemu doświadczeniu sprawimy, że zabieg usunięcia zęba przestanie być kojarzony z bólem i strachem. Zęby usuwane są całkowicie bezboleśnie, sprawnie i szybko.
+                    Dotyczy to w szczególności zatrzymanych zębów mądrości.
+                    </p>
+                </div>
+        </div>
+        <div class="offerTEXT col-lg-4 reveal">
+            <div id="box">
+                <h2>Stomatologia dziecięca</h2>
+                <p>
+                    W naszym gabinecie najmłodsi pacjenci są zawsze mile widziani!
+                    Kontrolujemy, czy rozwój uzębienia u najmłodszych pacjentów przebiega w prawidłowy sposób, udzielamy porad dotyczących pielęgnacji zębów oraz diety korzystnie wpływającej na ich kondycję. Podpowiadamy co robić, by nie dopuścić do powstawania próchnicy.
+                    Zachęcamy, by pierwszy raz przyjść z dzieckiem w ramach wizyty zapoznawczej, na której nie będą wykonywane żadne zabiegi a mały pacjent zapozna się z personelem oraz wyposażeniem gabinetu.
+                </p>
+            </div>
+            </div>
+        <div class="offerTEXT col-lg-6 reveal">
+            <div id="box">
+                <h2>Dysfunkcja układu ruchowego narządu żucia</h2>
+                <p>
+                    <b>Gnatologia</b> to bardzo wąska dziedzina stomatologii zajmująca się leczeniem oraz diagnostyką zaburzeń czynnościowych ukłądu ruchowego narządu żucia, postępowaniem w bruksiszmie i leczeniem jego następstw.
+                    Do leczenia kwalifikują się m. in. następujące sytuacje: starte powierzchnie zębów, ból, słyszalne trzaski w obrębie stawu skroniowo-żuchwowego w czasie żucia, napięciowe bóle głowy oraz ból i zmęczenie mięśni żucia.​
+                    Dzięki szczegółowej diagnostyce ruchów żuchwy określimy przyczyny
+                    i pochodzenie dolegliwości. A to pozwoli nam zastosować skuteczne leczenie.
+                    Diagnostyka obejmuje m. in.: manualne badanie narządu żucia, kondylografię, czyli elektroniczne badanie stawów skroniowo- żuchwowych, analizę modeli w artykulatorze. W zależności od przypadku.
+                </p>
+            </div>
+    </div>
+    <div class="offerTEXT col-lg-6 reveal">
+        <div id="box">
+            <img src="img/dentist2.JPG" alt="">
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <a id="PriceList"></a>
+    <div class="priceList">
+    <h1>Cennik usług</h1> 
+    <div class="underline"></div>
+    <br>
+    <br>
+    <div class="container reveal">
+        <div class="row">
+            <div class="col-lg-12">
+                <details>
+                    <summary>+ Stomatologia zachowawcza</summary>
+            <div class="borderSummary">
+            <p>
+            Porada stomatologiczna - 50 zł <br> <br>
+            Przegląd - 50 zł <br> <br>
+            Dewitalizacja - 100 zł <br> <br>
+            Opatrunek Coltosol - 50 zł <br> <br>
+            Opatrunek ZnO+E - 100 zł <br> <br>
+            Wypełnanie glassjonomerowe - od 120 do 150 zł<br> <br>
+            Wypełnianie kompozytowe - od 170 do 250 zł<br> <br>
+            Onlay kompozytowy met. bezpośrednią - 250zł<br> <br>
+            Wkład koronowo-korzeniowy Radix-anker - 300zł<br> <br>
+            RTG cyfrowe małoobrazkowe - 20zł
+            </p>
+            </div>
+        </details>
+            <div class="col-lg-12 ">
+                <div class="margin"></div>
+                <details>
+                <summary>+ Endodoncja - leczenie kanałowe</summary>
+                <div class="borderSummary">
+                <p>
+                    Ząb jednokanałowy - 400 zł <br> <br>
+                    Ząb dwukanałowy - 500 zł <br> <br>
+                    Ząb trzonowy (3 i 4 kanałowy) - 700 zł <br> <br>
+                </p>
+            </div>
+            </details>
+                <div class="col-lg-12 ">
+                    <div class="margin"></div>
+                <details>
+                    <summary>+ Chirurgia stomatologiczna</summary>
+                    <div class="borderSummary">
+            <p>
+                Usunięcie zęba rozchwianego - 120zł <br> <br>
+                Usunięcie zęba jednokorzeniowego - od 150 do 200 zł <br> <br>
+                Usunięcie zęba wielokorzeniowego - od 200 do 300 zł <br> <br>
+                Nacięcie ropnia z zaopatrzeniem - 150 zł
+            </p>
+            </div>
+        </details>
+
+            <div class="col-lg-12 ">
+                <div class="margin"></div>
+                <details>
+                <summary>+ Profilaktyka i higienizacja</summary>
+                <div class="borderSummary">
+                <p>
+                    Lakowanie - 100zł/ząb<br><br>
+                    Lakierowanie - 100zł/całość uzębienia<br> <br>
+                    Skaling całkowity + polerowanie - 200zł <br> <br>
+                    Skaling całkowity + piaskowanie - 250zł <br> <br>
+                    Piaskowanie - 120zł <br> <br>
+                    Wybielanie martwego zęba - 80zł/wizyta <br> <br>
+                    Wybielanie nakładkowe - 700zł
+                </p>
+                </div>
+        </details>
+            <div class="col-lg-12">
+                <div class="margin"></div>
+                <details>
+                <summary>+ Stomatologia dziecięca</summary>
+                <div class="borderSummary">
+                    <p>
+                    Wizyta adaptacyjna - 70zł<br> <br>
+                    Wizyta nieskuteczna (brak współpracy dziecka) - 50zł<br> <br>
+                    Wypełnienie zęba mlecznego:
+                    <br>&#8226; kolorowym kompozytem - 150zł
+                    <br>&#8226; glassjonomerem - 100zł <br> <br>
+                    Amputacja miazgi - 130zł <br> <br>
+                    Usunięcie zęba mlecznego - od 100 do 150zł
+                    </p>
+                    </div>
+                    </details>
+                <div class="col-lg-12">
+                    <div class="margin"></div>
+                    <details>
+                        <summary>+ Protektyka</summary>
+                        <div class="borderSummary">
+                        <p>
+                        Modele diagnostyczne - 150zł <br> <br>
+                        Wkład koronowo-korzeniowy: <br>
+                       &#8226; indywidualny - od 300 do 360zł <br>
+                       &#8226; standardowy metalowy - 300zł<br>
+                       &#8226; standardowy z włókna szklanego - 300zł<br> <br>
+                       Wax up całości uzębienia - 1000zł <br> <br>
+                       Mok up - 200zł <br> <br>
+                       Licówka kompozytowa met. bezpośrednią - 280zł<br> <br>
+                       Licówka ceramiczna e.Max - 1400zł<br> <br>
+                       Korona:<br>
+                       &#8226; tymczasowa wykonana w gabinecie - 80zł <br> <br>
+                       &#8226; akrylowa tymczasowa wykonana w pracowni - 300zł<br>
+                       &#8226; kompozytowa tymczasowa wykonana w pracowni - 400zł <br>
+                       &#8226; metalowo- porcelanowa - 800 zł <br>
+                       &#8226; pełnoceramiczna - 1400 zł <br> <br>
+                        Proteza: <br>
+                        &#8226; akrylowa częściowa - 600zł <br>
+                        &#8226; akrylowa całkowita - 800 zł <br>
+                        &#8226; szkieletowa - od 1200 do 1500 zł<br>
+                    </p>
+                    </div>
+                </details>
+                    <div class="col-lg-12">
+                        <div class="margin"></div>
+                        <details>
+                            <summary>+ Leczenie dysfunkcji układu ruchowego narządu żucia</summary>
+                            <div class="borderSummary">
+                        <p>
+                            Konsultacja specjalistyczna z wydaniem opinii - 250zł<br> <br>
+                            Instrumentalna analiza okluzji w artykulatorze (wliczona rejestracja łukiem twarzowym <br>
+                            i montaż modeli do artykulatora) - 800zł<br> <br>
+                            Szyna rehabilitacyjna-relaksacyjna/repozycyjna - 800zł <br> <br>
+                            Korekta szyny - od 80 do 120zł <br> <br>
+                            Kondylografia - 600zł
+                        </p>
+                        </div>
+                    
+                </details>
+            <div style="margin-top:50px; font-size:125%; font-weight:600;" class="disclaimer">
+                <p>* w indywidualnych przypadkach cena usługi może odbiegać od podanej w cenniku, w zależności od stopnia skomplikowania zabiegu.
+                <br> Cennik obowiązuje od 15.05.2020</p>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <a id="Contact"></a>
+            <br>
+            <br>
+            <br>
+            <div class="Contact">
+                <h1>Kontakt</h1> <br>
+                <h2>Zadzwoń lub wyślij mail, a my skontaktujemy się z Tobą najszybciej jak to będzie możliwe.</h2>
+                <div class="underline"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 Contactdiv py-5 reveal">
+                            <img src="img/pin.png" alt="" style="width:15%;">
+                            <p>UP Dent<br>
+                                Kinga Chodór<br>
+                                ul. Dziadoszańska 31 <br>
+                                54-153 Wrocław</p>
+                        </div>
+                        <div class="col-lg-3 Contactdiv py-5 reveal">
+                            <img src="img/clock.jpg" alt="" style="width:17%;">
+                            <p>Godziny przyjęć: <br>
+                               Poniedziałek  9-17 <br>
+                                Wtorek  9-17 <br>
+                                Środa  9-17 <br>
+                                Czwartek  9-17<br>
+                                Piątek  9-17<br></p>
+                        </div>
+                        <div class="col-lg-3 Contactdiv py-5 reveal">
+                           <a href="tel:+48605626666"> <img src="img/phone.png" style="width:13%" alt="">
+                            <p>+48 605 626 666</p></a>
+                        </div>
+                        <div class="col-lg-3 Contactdiv email py-5 reveal">
+                            <a href="mailto:updent.stomatolog@gmail.com">
+                            <img src="img/email.png" style="width: 22%;" alt="">
+                            <p>updent.stomatolog@gmail.com</p>
+                        </a>
+                        </div>
+                        <div class="col-lg-12 map">
+                            <p>Znajdź nas tutaj</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1488.0538135971858!2d16.980496!3d51.137036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fea6b4a488e13%3A0x53a6b4bfdc5a5d6!2sDziadosza%C5%84ska%2031%2C%2054-153%20Wroc%C5%82aw!5e1!3m2!1spl!2spl!4v1660925994119!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backButtonPL">
+                <button onclick="window.location.href='#main'">^</button>
+            </div>
+            <div class="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

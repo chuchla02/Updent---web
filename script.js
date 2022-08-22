@@ -29,7 +29,6 @@ window.addEventListener("load", () => {
   
   const windowWidth = window.innerWidth;
   const webLang = window.navigator.language;
-  console.log(webLang)
   currentPage = window.location.href;
 
  // if (windowWidth > '900') {

@@ -256,6 +256,7 @@ iframe{
     height: 40vh;
     border-radius:25px;
     margin-bottom: 20px;
+    box-shadow: 1px 1px 10px black;
 }
 
 .underline {

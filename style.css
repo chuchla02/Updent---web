@@ -234,7 +234,7 @@ nav{
 }
 
 #box h2{
-    background: linear-gradient(45deg, #8fb7c4, rgb(111, 152, 230));
+    background: linear-gradient(90deg, #8fb7c4, rgb(111, 193, 166));
     -webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.9px black;
@@ -343,7 +343,7 @@ details p{
 .AboutUSTEXT h1{
     text-shadow: 1px 1px 3px black;
     -webkit-font-smoothing: antialiased!important;
-    color:mediumturquoise;
+    color:mediumaquamarine;
     font-size: 290%;
     font-weight: 300;
 

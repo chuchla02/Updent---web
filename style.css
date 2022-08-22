@@ -44,13 +44,14 @@ body {background-color: aliceblue!important;}
             margin-right: 5%;}
     to   { opacity: 1; }
 }
-    .reveal{
+    .reveal, .hidden{
         transform: translateY(100px);
         opacity: 0;
         transition: 0.75s all ease-in;
+        content: 'asd'!important;
       }
       
-      .reveal.active{
+      .reveal.active, .hidden.active{
         transform: translateY(0px);
         opacity: 1;
       }
@@ -405,25 +406,6 @@ details p{
     transition: transform 0.3s;
 }
 
-.backButtonEN:hover::after{
-    content: 'Back to beginning';
-   color:#8fb7c4;
-   text-shadow: 1px 1px 2px black;
-    position: relative;
-    top:-50px;
-    left:-50%;
-}
-
-.backButtonPL:hover::after{
-    content: 'Wróć na początek';
-   color:#8fb7c4;
-   text-shadow: 1px 1px 2px black;
-    position: relative;
-    top:-50px;
-    left:-50%;
-}
-
-
 .backButtonEN:not(:hover), .backButtonPL:not(:hover){
     transform: scale(1.0);
     transition: transform 0.3s;
@@ -479,6 +461,10 @@ details p{
     color:aliceblue;
     text-shadow: 1px 1px 3px black;
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 

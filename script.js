@@ -15,6 +15,7 @@ window.addEventListener("scroll", () => {
   }
 })
 
+
 function createCookieEN() {
   document.cookie = "language=en;expires=Thu, 01 Jan 2222 00:00:01 GMT;path=/";
 }
@@ -37,6 +38,25 @@ window.addEventListener("load", () => {
   }
   }
 });
+
+
+window.addEventListener("scroll", () => {
+  const button = document.getElementById('backbutton');
+  const y = window.scrollY;
+
+
+  if (y > 110)
+  {
+   button.classList.remove("hidden"); 
+   button.classList.add("remove");
+  } else {
+    button.classList.remove("remove"); 
+   button.classList.add("hidden"); 
+  }
+
+});
+
+
 
 
 

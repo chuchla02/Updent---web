@@ -33,7 +33,7 @@ window.addEventListener("load", () => {
   currentPage = window.location.href;
 
  // if (windowWidth > '900') {
-  if (webLang != 'pl' && currentPage.indexOf("en") == -1 && document.cookie.match('en') == null) {
+  if (webLang != 'pl' /*&& currentPage.indexOf("en") == -1 && document.cookie.match('en') == null*/) {
     window.location.replace("../en/index.html")
   }
  // }

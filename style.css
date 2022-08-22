@@ -233,8 +233,10 @@ nav{
 }
 
 #box h2{
-    color: mediumturquoise;
-    text-shadow: 1px 1px 3px black;
+    background: linear-gradient(45deg, #8fb7c4, rgb(111, 152, 230));
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
     -webkit-font-smoothing: antialiased!important;
     font-size: 250%;
     font-weight: 600;
@@ -542,6 +544,12 @@ details p{
 
         .backButtonEN:hover::after, .backButtonPL:hover::after{
             content: ''!important;
+        }
+        .backButtonEN:hover, .backButtonPL:hover {
+            transform: inherit!important;
+        }
+        .Header button:hover {
+            transform: inherit!important;
         }
 
         @media  screen and (max-width: 992px) {

@@ -12,6 +12,7 @@ function reveal() { //Płynna animacja elementów podczas scrollowania
     }
   }
 }
+
 window.addEventListener("scroll", reveal);
 
 function createCookieEN() {
@@ -22,14 +23,21 @@ function createCookiePL() {
   document.cookie = "language=pl;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
 }
 
-/*function redirect() { //Przekierowanie  do strony angielskiej, jeżeli użytkownik posiada wersję językową przeglądarki innej niż PL.
+
+
+window.addEventListener("load", () => {
+  
+  const windowWidth = window.innerWidth;
   const webLang = window.navigator.language;
+  console.log(webLang)
   currentPage = window.location.href;
 
+ // if (windowWidth > '900') {
   if (webLang != 'pl' && currentPage.indexOf("en") == -1 && document.cookie.match('en') == null) {
     window.location.replace("../en/index.html")
   }
+ // }
+});
 
-}
 
-window.addEventListener("load", redirect);*/
+

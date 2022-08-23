@@ -17,11 +17,11 @@ window.addEventListener("scroll", () => {
 
 
 function createCookieEN() {
-  document.cookie = "language=en;expires=Thu, 01 Jan 2222 00:00:01 GMT;path=/";
+  document.cookie = "language=en;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
 }
 
 function createCookiePL() {
-  document.cookie = "language=pl;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
+  document.cookie = "language=pl;expires=Thu, 01 Jan 2222 00:00:01 GMT;path=/";
 }
 
 

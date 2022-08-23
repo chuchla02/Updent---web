@@ -22,7 +22,7 @@ function redirect() {
   const webLang = window.navigator.language;
   const currentPage = window.location.href;
 
-    if (webLang != 'pl'  && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
+    if ((webLang != 'pl'|| webLang != 'pl-PL') && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
         window.location.replace("../en/index.html");
       }
 }
@@ -54,14 +54,3 @@ window.addEventListener("scroll", () => {
     button.classList.add("hidden"); 
   }
 });
-
-
-function phone() {
-  const navigatorlanguage = navigator.language;
-  const navigatorlanguage2 = navigator.userLanguage;
-
-  console.log(navigatorlanguage)
-  console.log(navigatorlanguage2)
-}
-
-window.addEventListener("load", phone)

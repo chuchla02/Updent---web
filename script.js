@@ -24,9 +24,6 @@ function redirect() {
   const Width = window.innerWidth;
   const phoneWidth = 960;
 
-  console.log(Width)
-  console.log(webLang)
-
     if (Width > phoneWidth) {
       if (webLang != 'pl' && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
         window.location.replace("../en/index.html");

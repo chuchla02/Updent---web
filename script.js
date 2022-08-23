@@ -19,10 +19,12 @@ function backWithCookie() {
 
 function redirect() {
   const windowWidth = window.innerWidth;
-  const webLangP = window.navigator.language;
+  const webLang = window.navigator.language;
   const currentPage = window.location.href;
-  const Height = window.screenY
-  const phoneHeight = '780';
+  const Height = window.innerHeight;
+  const phoneHeight = 780;
+
+  console.log(Height)
 
     if (Height > phoneHeight) {
       if ((webLang != 'pl') && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
@@ -30,7 +32,7 @@ function redirect() {
       } } else if (Height < phoneHeight) {
         if ((webLang != 'pl-PL') && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
             window.location.replace("../en/index.html");
-   }
+  }
 }
 }
 window.addEventListener("load", redirect)

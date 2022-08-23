@@ -18,7 +18,6 @@ function backWithCookie() {
 }
 
 function redirect() {
-  const windowWidth = window.innerWidth;
   const webLang = window.navigator.language;
   const currentPage = window.location.href;
   const Width = window.innerWidth;
@@ -30,8 +29,8 @@ function redirect() {
       } } else if (Width < phoneWidth) {
         if (webLang != 'pl-PL' && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
             window.location.replace("../en/index.html");
+    }
   }
-}
 }
 window.addEventListener("load", redirect)
 

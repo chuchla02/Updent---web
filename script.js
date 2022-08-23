@@ -21,16 +21,16 @@ function redirect() {
   const windowWidth = window.innerWidth;
   const webLang = window.navigator.language;
   const currentPage = window.location.href;
-  const Height = window.innerHeight;
-  const phoneHeight = 780;
+  const Width = window.innerWidth;
+  const phoneWidth = 780;
 
-  console.log(Height)
+  console.log(Width)
 
-    if (Height > phoneHeight) {
-      if ((webLang != 'pl') && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
+    if (Width > phoneWidth) {
+      if (webLang != 'pl' && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
         window.location.replace("../en/index.html");
-      } } else if (Height < phoneHeight) {
-        if ((webLang != 'pl-PL') && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
+      } } else if (Width < phoneWidth) {
+        if (webLang != 'pl-PL' && currentPage.indexOf("/en/") == -1 && document.cookie.match('pl') == null) {
             window.location.replace("../en/index.html");
   }
 }

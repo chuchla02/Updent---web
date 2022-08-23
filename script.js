@@ -54,3 +54,14 @@ window.addEventListener("scroll", () => {
     button.classList.add("hidden"); 
   }
 });
+
+
+function phone() {
+  const navigatorlanguage = navigator.language;
+  const navigatorlanguage2 = navigator.userLanguage;
+
+  console.log(navigatorlanguage)
+  console.log(navigatorlanguage2)
+}
+
+window.addEventListener("load", phone)

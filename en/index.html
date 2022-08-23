@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl" style="padding: 0px;height:100%;width: 100%;" >
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1">
-        <link href="../style.css" rel="stylesheet">
-        <title>Updent - Private dental practice</title>
-<link rel="icon" type="image/x-icon" href="../img/logo.jpg">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<meta name="format-detection" content="telephone=no">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <title>Updent - Prywatna praktyka stomatologiczna</title>
+        <link rel="icon" type="image/x-icon" href="img/logo.jpg">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="../script.js"></script>
+        <link href="../style.css" rel="stylesheet">
     </head>
-
-    <body onload="createCookieEN();">
+    <body>
         <a id="main"></a>
-        <div class="background" id="background">
+        <div class="container__Background">
         <nav class="navbar navbar-light navbar-expand-xl">
-                                <a class="navbar-brand"><img class="logo" src="../img/logo.jpg"></a>
-                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                                            <span class="navbar-toggler-icon">
-                                            </span>
-                                    </button>
+            <a class="navbar-brand"><img class="logo" src="../img/logo.jpg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
+                    </span>
+                </button>
                 <div class="collapse navbar-collapse" id="navMenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item active" id="animated">
                             <a class="nav-link marginfirst" href="#main">Main page&nbsp;</a>
                         </li>
                         <li class="nav-item active" id="animated">
-                            <a class="nav-link" href="#AboutUS">About me&nbsp;</a>
+                            <a class="nav-link" href="#AboutMe">About me&nbsp;</a>
                         </li>
                         <li class="nav-item active" id="animated">
-                            <a class="nav-link" href="#Offer">Offer&nbsp;</a>
+                            <a class="nav-link" href="#Offer">Offfer&nbsp;</a>
                         </li>
                         <li class="nav-item active" id="animated">
                             <a class="nav-link" href="#PriceList">Price list&nbsp;</a>
@@ -44,15 +36,15 @@
                             <a class="nav-link" href="#Contact">Contact&nbsp;</a>
                         </li>
                         <li class="nav-item active" id="unanimated">
-                            <a class="nav-link" href="../index.html" onclick="createCookiePL()">
+                            <a class="nav-link" href="../index.html" id="languagePL" onclick="createCookiePL()">
                                 <div class="PL">
                                     <img src="../img/pl.jpg" alt="">
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item active" id="unanimated">
-                            <a class="nav-link" href="../en/index.html">
-                                <div class="EN">
+                            <a class="nav-link" href="../en/index.html" id="languageEN">
+                                <div class="PL">
                                     <img src="../img/eng.jpg">
                                 </div>
                             </a>
@@ -61,334 +53,336 @@
                     </ul>
                 </div>
         </nav>
-        <div class="Header">
+            <div class="container__Background--Header">
             <h1>You have got <b>32</b> reasons, <br>to contact with us.</h1>
-            <button class="buttonHeader" onclick="window.location.href='#AboutUS'">Find out more</button>
-        </div>
-        
-    </div>
-    <a id="AboutUS"></a>
-    <div class="AboutUS">
-    <div class="AboutUSHeader">
-        <bR>
-        <br>
-        <h1>ABOUT ME</h1>
-        <div class="underline"></div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="AboutUSIMG col-lg-6 py-4 reveal">
-                    <br>
-                    <img src="../img/dentist.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="AboutUSTEXT col-lg-6 py-5 reveal">
-                        <br>
-                        <h1>Dentist Kinga Chodór</h1> 
-                        <br>
-                        <p style="text-align:center">
-                            I am a graduate of the Silesian Medical University in Zabrze and the Vienna School of Interdisciplinary Dentistry. <br>In my practice I deal with conservative dentistry, endodontics, prosthodontics, and my greatest professional passion is the treatment of dysfunction of the masticatory musculoskeletal system, management of bruxism and treatment of its complications. I am constantly improving my qualifications at training courses at home and abroad. The VieSID Continuum "Orthognatodontic Clinical Course" follows the orthodontic concept of Prof. Sadao Sato. Privately, I train crossfit and travel in my free time.
-                            </p>
+            <button onclick="location.href='#AboutMe'">Find out more</button>
             </div>
         </div>
-    </div>
-    </div>
-    <a id="Offer">
-    <div class="Offer">
-        <div class="OfferHEADER">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1>OUR DENTAL SERVICES</h1> <BR>
-            <h2>We offer you and your family a full range of dental services.</h2>
-            <div class="underline"></div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="offerTEXT col-lg-4 reveal">
-                    <div id="box">
-                        <h2>Conservative dentistry</h2>
-                        <p>Conservative dentistry deals with the treatment of tooth decay, resulting from the action of decay-causing bacteria on teeth.
-
-                            Bacteria cause the destruction of enamel and lower tissues, resulting in a so-called cavity.
-                            
-                            Treatment of caries is most often carried out under local anesthesia. The treatment involves cleaning the cavity of the bacteria present and rebuilding the damaged part of the tooth with a filling. Depending on the extent of the cavity, curing one tooth
-                            
-                            from caries can last from 30 to 60 minutes</p>
+        <a id="AboutMe"></a>
+        <div class="container__AboutMe">
+            <div class="container__AboutMe--Header">
+                <br> <br>
+                    <h1>ABOUT ME</h1>
+                        <div class="underline"></div>
                         </div>
-                </div>
-                <div class="offerTEXT col-lg-4 reveal">
-                    <div id="box">
-                        <h2>Endodontic therapy</h2>
-                        <p>
-                            Root canal, or endodontic, treatment is performed when an infection or inflammation of the pulp occurs. The causes of such a condition can be many, the most common being caries, repeatedly performed procedures on that particular tooth, as well as a cracked or broken tooth. The developing inflammation is accompanied by severe pain.
-                            <br> <br>
-                            <b>Indications for root canal treatment:</b><br>
-                            
-                            - pulpitis <br>
-                            - pulp necrosis <br>
-                            - underfilled root canals <br> 
-                            - periapical lesions <br>
-                        </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="container__AboutMe--IMG col-lg-6 py-4 reveal">
+                                <br>
+                                    <img src="../img/dentist.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="container__AboutMe--Text col-lg-6 py-5 reveal">
+                                <br>
+                                    <h1>Dentist Kinga Chodór</h1> 
+                                <br>
+                                    <p style="text-align:center">
+                                        I am a graduate of the Silesian Medical University in Zabrze and the Vienna School of Interdisciplinary Dentistry. <br>In my practice I deal with conservative dentistry, endodontics, prosthodontics, and my greatest professional passion is the treatment of dysfunction of the masticatory musculoskeletal system, management of bruxism and treatment of its complications. I am constantly improving my qualifications at training courses at home and abroad. The VieSID Continuum "Orthognatodontic Clinical Course" follows the orthodontic concept of Prof. Sadao Sato. Privately, I train crossfit and travel in my free time.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+        <a id="Offer">
+            <div class="container__Offer">
+                <div class="container__Offer--Header">
+                    <br> <br> <br> <br> <br> <br>
+                        <h1>OUR DENTAL SERVICES</h1> <br>
+                            <h2>We offer you and your family a full range of dental services.</h2>
+                                <div class="underline"></div>
                 </div>
-                <div class="offerTEXT col-lg-4 reveal">
-                    <div id="box">
-                        <h2>Prosthetic dentistry</h2>
-                        <p>
-                            Prosthodontics is a branch of dentistry that deals with the restoration of missing teeth, the reconstruction of extensive defects in individual teeth, as well as improving the aesthetics of existing dentition.
-                            Clinical experience, training and cooperation with leading prosthetic laboratories allows us to offer the highest quality prosthetic restorations, both removable and permanent. <br>
-                             <br>
-                        <b>Our offer includes:</b> <br>
-                        -all-ceramic veneers <br>
-                        -porcelain metal and all-ceramic crowns and bridges, <br>
-                        -inlay/ onlay/ overlay restorations <br>
-                        -implant-prosthetic restorations <br>
-                        -movable acrylic and skeletal prostheses
-                        </p>
-                    </div>
-                </div>
-                <div class="offerTEXT col-lg-4 reveal">
-                    <div id="box">
-                        <h2>Cosmetic denistry</h2>
-                        <p>Cosmetic dentistry is a branch of dentistry that deals with improving the appearance of teeth. A cosmetic dentist helps assess the disruption of their aesthetics and proposes available solutions to the problem tailored to the individual. It can be said that this field makes it possible to restore a beautiful smile.
-                        </p>
-                    </div>
-            </div>
-            <div class="offerTEXT col-lg-4 reveal">
-                <div id="box">
-                    <h2>Dental surgery</h2>
-                    <p>Dental surgery is an extensive field of operative dentistry,
-                    which includes tooth extractions. Thanks to many years of experience, we will make the tooth extraction procedure no longer associated with pain and fear. Teeth are removed completely painlessly, efficiently and quickly.
-                    This is especially true for retained wisdom teeth.
-                    </p>
-                </div>
-        </div>
-        <div class="offerTEXT col-lg-4 reveal">
-            <div id="box">
-                <h2>Pediatric dentistry</h2>
-                <p>
-                    In our office the youngest patients are always welcome!
-                    We check whether the development of the teeth of the youngest patients is proceeding properly, we give advice on dental care and on a diet that benefits their condition. We suggest what to do to prevent tooth decay.
-                    We encourage you to come with your child for the first time on a familiarization visit, during which no procedures will be performed and the little patient will get acquainted with the staff and equipment of the office.
-                </p>
-            </div>
-            </div>
-        <div class="offerTEXT col-lg-6 reveal">
-            <div id="box">
-                <h2>Dysfunction of the masticatory motor system</h2>
-                <p>
-                    <b>Gnatology</b> is a very narrow field of dentistry dealing with the treatment and diagnosis of functional disorders of the dysfunction of the masticatory motor system, the management of bruxism and the treatment of its consequences.
-                    The following situations are eligible for treatment: worn tooth surfaces, pain, audible crackling in the temporomandibular joint during chewing, tension headaches and pain and fatigue in the masticatory muscles.
-
-                    With a detailed diagnosis of mandibular movements, we will determine the causes
-                    and origin of the ailments. And this will allow us to apply effective treatment.
-
-                    Diagnostics includes, among other things: manual examination of the masticatory organ, conditionlography, which is an electronic examination of the temporomandibular joints, analysis of models in the articulator. Depending on the case.
-                </p>
-            </div>
-    </div>
-    <div class="offerTEXT col-lg-6 reveal">
-        <div id="box">
-            <img src="../img/dentist2.JPG" alt="" style="box-shadow:0px 0px 15px black;">
-        </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    <a id="PriceList"></a>
-    <div class="priceList">
-    <h1>Price list</h1> 
-    <div class="underline"></div>
-    <br>
-    <br>
-    <div class="container reveal">
-        <div class="row">
-            <div class="col-lg-12">
-                <details>
-                    <summary>+ Conservative dentistry</summary>
-            <div class="borderSummary">
-            <p>
-                Dental consultation - 50  PLN<br><br>
-                Inspection - 50 PLN<br><br>
-                Devitalization - 100 PLN <br><br>
-                Coltosol dressing - 50 PLN <br><br>
-                ZnO+E dressing - 100 PLN <br><br>
-                Glass ionomer filling - from 120 to 150 PLN<br><br>
-                Composite filling - from 170 to 250 PLN<br><br>
-                Direct composite onlay - 250 PLN<br><br>
-                Radix-anker crown and root inlay - 300 PLN<br><br>
-                Digital small-picture x-ray - 20 PLN
-            </p>
-            </div>
-            </details>
-         </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="margin"></div>
-                <details>
-                    <summary>+ Endodontic therapy</summary>
-                    <div class="borderSummary">
-                <p>
-                    Single channel tooth - 400 PLN <br><br>
-                    Two-canal tooth - 500 PLN <br><br>
-                    Molar tooth (3 and 4 canal) - 700 PLN 
-                </p>
-            </div>
-            </details>
-                <div class="col-lg-12">
-                    <div class="margin"></div>
-                <details>
-                    <summary>+ Prosthetic dentistry</summary>
-            <div class="borderSummary">
-            <p>
-                Extraction of a loose tooth - 120 PLN <br><br>
-                Extraction of a single-rooted tooth - from 150 to 200 PLN <br><br>
-                Extraction of a multi-rooted tooth - from 200 to 300 PLN <br><br>
-                Incision of an abscess with dressing - 150 PLN
-            </p>
-        </div>
-        </details>
-
-            <div class="col-lg-12">
-                <div class="margin"></div>
-                <details>
-                <summary>+ Dental prophylaxis and hygiene</summary>
-                <div class="borderSummary">
-                    <p>
-                        Sealing - 100 PLN/teeth <br><br>
-                        Dental varnishing - 100 PLN/whole dentition<br><br>
-                        Scaling + polishing - 200 PLN<br><br>
-                        Scaling + sandblasting - 250 PLN<br><br>
-                        Sandblasting - 120 PLN<br><br>
-                        Dead tooth whitening - 80 PLN/visit<br><br>
-                        Tray-based teeth whitening - 700 PLN
-                </p>
-            </div>
-
-            </details>
-            <div class="col-lg-12">
-                <div class="margin"></div>
-                <details>
-                    <summary>+ Pediatric dentistry</summary>
-                    <div class="borderSummary">
-                    <p>
-                    Adaptation visit - 70 PLN <br><br>
-                    Unsuccessful visit (lack of child's cooperation) - 50 PLN <br> <br>
-                    Filling of a deciduous tooth: <br>
-                    &#8226; Colored composite - 150 PLN <br>
-                    &#8226; Glass ionomer - 100 PLN<br> <br>
-                    Pulp amputation - 130 PLN <br><br>
-                    Removal of a baby tooth - from 100 to 150 PLN
-                     </p>
-                </div>
-                </details>
-                <div class="col-lg-12">
-                    <div class="margin"></div>
-                    <details>
-                    <summary>+ Prosthetic dentistry</summary>
-                    <div class="borderSummary"><p>
-                        Diagnostic models - 150 PLN <br> <br>
-                        Crown-root inlay: <br>
-                        &#8226; individual - from 300 to 360 PLN <br>
-                        &#8226; standard metal one - 300 PLN <br>
-                        &#8226; standard fiberglass - 300 PLN <br> <br>
-                        Wax up of entire dentition - 1000 PLN <br><br>
-                        Mock up - 200 PLN <br><br>
-                        Direct composite veneer - 280 PLN <br><br>
-                        Ceramic veneer e.Max - 1400 PLN <br> <br>
-                        Crown: <br>
-                        &#8226;Temporary made in the office - 80 PLN <br>
-                        &#8226; Temporary acrylic crown made in the lab - 300 PLN <br>
-                        &#8226; Temporary composite crown made in the lab - 400 PLN <br>
-                        &#8226; Metal and porcelain - 800 PLN <br>
-                        &#8226; All-ceramic - 1400 PLN <br> <br>
-                        
-                        Prosthesis: <br>
-                        &#8226; Partial acrylic - 600 PLN <br> 
-                        &#8226; Complete acrylic - 800 PLN <br>
-                        &#8226; Skeletal - from 1200 to 1500 PLN <br>
-                    </p></div>
-                </details>
-                    <div class="col-lg-12">
-                        <div class="margin"></div>
-                        <details> 
-                        <summary>+ Dysfunction of the masticatory motor system</summary>
-                        <div class="borderSummary"><p>
-                            Specialist consultation with issuing an opinion - 250 PLN<br><br>
-                            Instrumental occlusal analysis in articulator (included facial arch registration and assembly of models to the articulator) - 800 PLN<br><br>
-                            Rehabilitation-relaxation/repositioning splint - 800 PLN<br><br>
-                            Correction of splint - from 80 to 120 PLN <br><br>
-                            Condylography - 600 PLN
-                        </p>
-                    </div>
-                </details>
-            <div style="margin-top:50px; font-size:125%; font-weight:600;" class="disclaimer">
-                <p>*in individual cases, the price of the service may differ from the price list, depending on the complexity of the procedure. <br>
-                The price list is valid from 15.05.2020</p>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-</div>
-</div>
-            <a id="Contact"></a>
-    <br>
-    <br>
-            <div class="Contact">
-                <h1>Contact</h1> <br>
-                <h2>Call or email us and we will get back to you as soon as possible.</h2>
-                <div class="underline"></div>
+                    <br> <br> <br>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 Contactdiv py-5 reveal">
-                            <img src="../img/pin.png" alt="" style="width:15%;">
-                            <p>UP Dent<br>
-                                Kinga Chodór<br>
-                                ul. Dziadoszańska 31 <br>
-                                54-153 Wrocław</p>
+                        <div class="container__Offer--Text col-lg-4 reveal">
+                            <div id="container__Offer--TextBox">
+                                <h2>Conservative dentistry</h2>
+                                    <p>
+                                        Conservative dentistry deals with the treatment of tooth decay, resulting from the action of decay-causing bacteria on teeth.
+                                        Bacteria cause the destruction of enamel and lower tissues, resulting in a so-called cavity.
+                                        Treatment of caries is most often carried out under local anesthesia. The treatment involves cleaning the cavity of the bacteria present and rebuilding the damaged part of the tooth with a filling. Depending on the extent of the cavity, curing one tooth from caries can last from 30 to 60 minutes.
+                                    </p>
+                            </div>
                         </div>
-                        <div class="col-lg-3 Contactdiv py-5 reveal">
-                            <img src="../img/clock.jpg" alt="" style="width:17%;">
-                            <p>Hours of admissions: <br>
-                               Monday  9-17 <br>
-                                Tuesday  9-17 <br>
-                                Wednesday 9-17 <br>
-                                Thursday 9-17<br>
-                                Friday  9-17<br></p>
+                <div class="container__Offer--Text col-lg-4 reveal">
+                    <div id="container__Offer--TextBox">
+                        <h2>Endodontic therapy</h2>
+                            <p>
+                                Root canal, or endodontic, treatment is performed when an infection or inflammation of the pulp occurs. The causes of such a condition can be many, the most common being caries, repeatedly performed procedures on that particular tooth, as well as a cracked or broken tooth. The developing inflammation is accompanied by severe pain.
+                            </p>
+                            <p>
+                                <b>Indications for root canal treatment:</b> <br>
+                                - pulpitis <br>
+                                - pulp necrosis <br>
+                                - underfilled root canals <br> 
+                                - periapical lesions <br>
+                            </p>
+                    </div>
+                </div>
+                <div class="container__Offer--Text col-lg-4 reveal">
+                    <div id="container__Offer--TextBox">
+                        <h2>Prosthetic</h2>
+                            <p>
+                                Is a branch of dentistry that deals with the restoration of missing teeth, the reconstruction of extensive defects in individual teeth, as well as improving the aesthetics of existing dentition.
+                                Clinical experience, training and cooperation with leading prosthetic laboratories allows us to offer the highest quality prosthetic restorations, both removable and permanent.
+                            </p>
+                            <p>
+                                <b>Our offer includes:</b> <br>
+                                -all-ceramic veneers <br>
+                                -porcelain metal and all-ceramic crowns and bridges, <br>
+                                -inlay/ onlay/ overlay restorations <br>
+                                -implant-prosthetic restorations <br>
+                                -movable acrylic and skeletal prostheses
+                            </p>
+                    </div>
+                </div>
+                <div class="container__Offer--Text col-lg-4 reveal">
+                    <div id="container__Offer--TextBox">
+                        <h2>Cosmetic denistry</h2>
+                            <p>
+                                Cosmetic dentistry is a branch of dentistry that deals with improving the appearance of teeth. A cosmetic dentist helps assess the disruption of their aesthetics and proposes available solutions to the problem tailored to the individual. It can be said that this field makes it possible to restore a beautiful smile.
+                            </p>
+                    </div>
+                </div>
+                <div class="container__Offer--Text col-lg-4 reveal">
+                    <div id="container__Offer--TextBox">
+                        <h2>Dental surgery</h2>
+                            <p>
+                                Dental surgery is an extensive field of operative dentistry,
+                                which includes tooth extractions. Thanks to many years of experience, we will make the tooth extraction procedure no longer associated with pain and fear. Teeth are removed completely painlessly, efficiently and quickly.
+                                This is especially true for retained wisdom teeth.
+                            </p>
+                    </div>
+                </div>
+                <div class="container__Offer--Text col-lg-4 reveal">
+                    <div id="container__Offer--TextBox">
+                        <h2>Pediatric dentistry</h2>
+                            <p>
+                                In our office the youngest patients are always welcome!
+                                We check whether the development of the teeth of the youngest patients is proceeding properly, we give advice on dental care and on a diet that benefits their condition. We suggest what to do to prevent tooth decay.
+                                We encourage you to come with your child for the first time on a familiarization visit, during which no procedures will be performed and the little patient will get acquainted with the staff and equipment of the office.
+                            </p>
                         </div>
-                        <div class="col-lg-3 Contactdiv py-5 reveal">
-                            <a href="tel:+48605626666">
-                            <img src="../img/phone.png" style="width:13%" alt="">
-                            <p>+48 605 626 666</p>
-                        </a>
+                    </div>
+                <div class="container__Offer--Text col-lg-6 reveal">
+                    <div id="container__Offer--TextBox">
+                        <h2>Dysfunction of the masticatory motor system</h2>
+                            <p>
+                                <b>Gnatology</b> is a very narrow field of dentistry dealing with the treatment and diagnosis of functional disorders of the dysfunction of the masticatory motor system, the management of bruxism and the treatment of its consequences.
+                                The following situations are eligible for treatment: worn tooth surfaces, pain, audible crackling in the temporomandibular joint during chewing, tension headaches and pain and fatigue in the masticatory muscles.
+                                With a detailed diagnosis of mandibular movements, we will determine the causes
+                                and origin of the ailments. And this will allow us to apply effective treatment.
+                                Diagnostics includes, among other things: manual examination of the masticatory organ, conditionlography, which is an electronic examination of the temporomandibular joints, analysis of models in the articulator. Depending on the case.
+                            </p>
                         </div>
-                        <div class="col-lg-3 Contactdiv py-5 email reveal">
-                            <a href="mailto:updent.stomatolog@gmail.com">
-                            <img src="../img/email.png" style="width: 22%;" alt="">
-                            <p>updent.stomatolog@gmail.com</p>
-                            </a>
-                        </div>
-                        <div class="col-lg-12 map">
-                            <p>Find us here</p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1488.0538135971858!2d16.980496!3d51.137036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fea6b4a488e13%3A0x53a6b4bfdc5a5d6!2sDziadosza%C5%84ska%2031%2C%2054-153%20Wroc%C5%82aw!5e1!3m2!1spl!2spl!4v1660925994119!5m2!1spl!2spl" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                    </div>
+                <div class="container__Offer--Text col-lg-6 reveal">
+                    <div id="container__Offer--TextBox">
+                        <img src="../img/dentist2.JPG" alt="">
                     </div>
                 </div>
             </div>
-            <div class="backButtonEN">
-                <button onclick="window.location.href='#main'"  id="backbutton" class="hidden">^</button>
-            </div>
-            <div class="footer"></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </div>
+        </div>
+        <a id="PriceList"></a>
+            <div class="container__PriceList">
+                <h1>Price List</h1> 
+                <div class="underline"></div>
+                <br> <br>
+                    <div class="container reveal">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <details>
+                                    <summary>+ Conservative dentistry</summary>
+                                        <div class="borderSummary">
+                                            <p>
+                                                Dental consultation - 50  PLN <br> <br>
+                                                Inspection - 50 PLN <br> <br>
+                                                Devitalization - 100 PLN <br> <br>
+                                                Coltosol dressing - 50 PLN <br> <br>
+                                                ZnO+E dressing - 100 PLN <br> <br>
+                                                Glass ionomer filling - from 120 to 150 PLN <br> <br>
+                                                Composite filling - from 170 to 250 PLN <br> <br>
+                                                Direct composite onlay - 250 PLN <br> <br>
+                                                Radix-anker crown and root inlay - 300 PLN <br> <br>
+                                                Digital small-picture x-ray - 20 PLN
+                                            </p>
+                                        </div>
+                                </details>
+                            <div class="col-lg-12 ">
+                            <div class="margin"></div>
+                                <details>
+                                    <summary>+ Endodoncja - Endodontic therapy</summary>
+                                        <div class="borderSummary">
+                                            <p>
+                                                Single channel tooth - 400 PLN <br> <br>
+                                                Two-canal tooth - 500 PLN <br> <br>
+                                                Molar tooth (3 and 4 canal) - 700 PLN 
+                                            </p>
+                                        </div>
+                                </details>
+                            <div class="col-lg-12 ">
+                                <div class="margin"></div>
+                                    <details>
+                                        <summary>+ Prosthetic dentistry</summary>
+                                            <div class="borderSummary">
+                                            <p>
+                                                Extraction of a loose tooth - 120 PLN <br> <br>
+                                                Extraction of a single-rooted tooth - from 150 to 200 PLN <br> <br>
+                                                Extraction of a multi-rooted tooth - from 200 to 300 PLN <br> <br>
+                                                Incision of an abscess with dressing - 150 PLN
+                                            </p>
+                                            </div>
+                                    </details>
+                            <div class="col-lg-12 ">
+                                <div class="margin"></div>
+                                    <details>
+                                        <summary>+ Dental prophylaxis and hygiene</summary>
+                                            <div class="borderSummary">
+                                            <p>
+                                                Sealing - 100 PLN/teeth <br> <br>
+                                                Dental varnishing - 100 PLN/whole dentition <br> <br>
+                                                Scaling + polishing - 200 PLN <br> <br>
+                                                Scaling + sandblasting - 250 PLN <br> <br>
+                                                Sandblasting - 120 PLN <br> <br>
+                                                Dead tooth whitening - 80 PLN/visit <br> <br>
+                                                Tray-based teeth whitening - 700 PLN
+                                            </p>
+                                            </div>
+                                    </details>
+                            <div class="col-lg-12">
+                                <div class="margin"></div>
+                                    <details>
+                                        <summary>+ Pediatric dentistry</summary>
+                                            <div class="borderSummary">
+                                            <p>
+                                                Adaptation visit - 70 PLN <br> <br>
+                                                Unsuccessful visit (lack of child's cooperation) - 50 PLN <br> <br>
+                                                Filling of a deciduous tooth: <br>
+                                                &#8226; Colored composite - 150 PLN <br>
+                                                &#8226; Glass ionomer - 100 PLN <br> <br>
+                                                Pulp amputation - 130 PLN <br> <br>
+                                                Removal of a baby tooth - from 100 to 150 PLN
+                                            </p>
+                                            </div>
+                                        </details>
+                                <div class="col-lg-12">
+                                    <div class="margin"></div>
+                                        <details>
+                                            <summary>+ Prosthetic dentistry</summary>
+                                                <div class="borderSummary">
+                                                <p>
+                                                    Diagnostic models - 150 PLN <br> <br>
+
+                                                    Crown-root inlay: <br>
+                                                    &#8226; individual - from 300 to 360 PLN <br>
+                                                    &#8226; standard metal one - 300 PLN <br>
+                                                    &#8226; standard fiberglass - 300 PLN <br> <br>
+                                                    Wax up of entire dentition - 1000 PLN <br> <br>
+                                                    Mock up - 200 PLN <br><br>
+                                                    Direct composite veneer - 280 PLN <br> <br>
+                                                    Ceramic veneer e.Max - 1400 PLN <br> <br>
+
+                                                    Crown: <br>
+                                                    &#8226;Temporary made in the office - 80 PLN <br>
+                                                    &#8226; Temporary acrylic crown made in the lab - 300 PLN <br>
+                                                    &#8226; Temporary composite crown made in the lab - 400 PLN <br>
+                                                    &#8226; Metal and porcelain - 800 PLN <br>
+                                                    &#8226; All-ceramic - 1400 PLN <br> <br>
+                                                    
+                                                    Prosthesis: <br>
+                                                    &#8226; Partial acrylic - 600 PLN <br> 
+                                                    &#8226; Complete acrylic - 800 PLN <br>
+                                                    &#8226; Skeletal - from 1200 to 1500 PLN
+                                                </p>
+                                                </div>
+                                        </details>
+                                <div class="col-lg-12">
+                                    <div class="margin"></div>
+                                        <details>
+                                            <summary>+ Dysfunction of the masticatory motor system</summary>
+                                                <div class="borderSummary">
+                                                    <p>
+                                                        Specialist consultation with issuing an opinion - 250 PLN <br> <br>
+                                                        Instrumental occlusal analysis in articulator (included facial arch registration and assembly of models to the articulator) - 800 PLN <br> <br>
+                                                        Rehabilitation-relaxation/repositioning splint - 800 PLN <br> <br>
+                                                        Correction of splint - from 80 to 120 PLN <br> <br>
+                                                        Condylography - 600 PLN
+                                                    </p>
+                                                </div>   
+                                    </details>
+                        <div style="margin-top:50px; font-size:125%; font-weight:600;" class="disclaimer">
+                            <p>
+                                * in individual cases, the price of the service may differ from the price list, depending on the complexity of the procedure. <br> The price list is valid from 15.05.2020
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            <a id="Contact"></a>
+            <br> <br> <br> <br> <br>
+                <div class="container__Contact">
+                    <h1>Contact</h1> <br>
+                        <h2>Call or email us and we will get back to you as soon as possible.</h2>
+                            <div class="underline"></div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-3 container__Contact--media py-5 reveal">
+                                            <img src="../img/pin.png" alt="" style="width:15%;">
+                                                <p>
+                                                    UP Dent <br>
+                                                    Kinga Chodór <br>
+                                                    ul. Dziadoszańska 31 <br>
+                                                    54-153 Wrocław
+                                                </p>
+                                            </div>
+                                        <div class="col-lg-3 container__Contact--media py-5 reveal">
+                                            <img src="../img/clock.jpg" alt="" style="width:17%;">
+                                                <p>
+                                                    Hours of admissions: <br>
+                                                    Monday  9-17 <br>
+                                                    Tuesday  9-17 <br>
+                                                    Wednesday 9-17 <br>
+                                                    Thursday 9-17 <br>
+                                                    Friday  9-17 <br>
+                                                </p>
+                                        </div>
+                                        <div class="col-lg-3 container__Contact--media py-5 reveal">
+                                            <a href="tel:+48605626666"> <img src="../img/phone.png" style="width:13%" alt="">
+                                                <p>
+                                                    +48 605 626 666
+                                                </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 container__Contact--media email py-5 reveal">
+                                            <a href="mailto:updent.stomatolog@gmail.com">
+                                                <img src="../img/email.png" style="width: 22%;" alt="">
+                                                    <p>
+                                                        updent.stomatolog@gmail.com
+                                                    </p>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-12 container__Map">
+                                            <p>
+                                                Find us here
+                                            </p>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1488.0538135971858!2d16.980496!3d51.137036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fea6b4a488e13%3A0x53a6b4bfdc5a5d6!2sDziadosza%C5%84ska%2031%2C%2054-153%20Wroc%C5%82aw!5e1!3m2!1spl!2spl!4v1660925994119!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                <div class="container__BackButton">
+                    <button onclick="window.location.href='#main'"  id="backbutton" class="hidden">^</button>
+                </div>
+                <div class="container__Footer"></div>
+        <script src="../script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

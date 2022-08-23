@@ -22,7 +22,7 @@ function redirect() {
   const webLang = window.navigator.language;
   const currentPage = window.location.href;
   const Width = window.innerWidth;
-  const phoneWidth = 780;
+  const phoneWidth = 960;
 
   console.log(Width)
 

@@ -19,7 +19,6 @@ function backWithCookie() {
 
 function redirect() {
   const webLang = window.navigator.language;
-  const webLang2 = window.navigator.language
   const currentPage = window.location.href;
   const Width = window.innerWidth;
   const phoneWidth = 960;

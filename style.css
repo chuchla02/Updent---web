@@ -58,7 +58,7 @@ body {
 
 
 #container__Offer--TextBox img {
-    width: 85%!important;
+    width: 75%!important;
     box-shadow:0px 0px 15px black!important;
 }
 
@@ -116,7 +116,7 @@ details > summary::-webkit-details-marker {
 
 .navbar {
     position: fixed;
-    font-size: 135%;
+    font-size: 19px;
     text-shadow: 1px 1px 3px black;
     -webkit-font-smoothing: antialiased!important;
     background: linear-gradient(45deg, rgba(165, 213, 213, 0.25), rgba(130, 165, 230, 0.25));
@@ -151,7 +151,7 @@ nav {
 }
 
 .logo {
-    width: 190px;
+    width: 160px;
     margin-left: 120px;
     box-shadow: 2px 2px 3px black;
 }
@@ -171,7 +171,7 @@ nav {
 }
 
 .container__Background--Header h1 {
-    font-size: 250%;
+    font-size: 32px;
 }
 
 .container__Background--Header h1 b {
@@ -183,7 +183,7 @@ nav {
     min-width: 190px;
     width: 250px;
     background: linear-gradient(45deg, #46a1c2, cornflowerblue);
-    padding: 10px;
+    padding: 8px;
     text-shadow: 1px 1px 4px black;
     border-radius: 25px;
     font-weight: 500;
@@ -232,7 +232,7 @@ nav {
 }
 
 #container__Offer--TextBox h2 {
-    background: linear-gradient(90deg, #8fb7c4, rgb(111, 193, 166));
+    background: linear-gradient(90deg, #8fb7c4, rgb(111, 193, 166, 0.8));
     -webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.9px black;
@@ -249,11 +249,12 @@ nav {
 #container__Offer--TextBox {
     padding:15px;
     margin:20px;
+    font-size: 13px;
 }
 
 iframe {
-    width: 70%;
-    height: 40vh;
+    width: 35vw;
+    height: 35vh;
     border-radius:25px;
     margin-bottom: 20px;
     box-shadow: 1px 1px 10px black;
@@ -265,7 +266,7 @@ iframe {
     width: 60px!important;
     height: 4px;
     border-radius: 25px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .cont img {
@@ -308,12 +309,17 @@ summary {
 details p {
     color: rgba(0, 0, 0, 0.8);
     padding: 25px;
-    font-size: 90%;
+    font-size: 15px;
     font-weight: 600;
 }
 
+svg {
+    width: 48px;
+    height: 48px;
+}
+
 .margin {
-    height: 0.75vh;
+    height: 0.3vh;
 }
 
 .container__PriceList {
@@ -327,6 +333,7 @@ details p {
 .disclaimer p {
     color:black;
     font-weight: 300;
+    font-size: 15px;
 }
 
 .container__AboutMe h1, .container__PriceList h1 {
@@ -334,14 +341,14 @@ details p {
     color: white;
     text-shadow: 1px 1px 4px black;
     -webkit-font-smoothing: antialiased!important;
-    font-size: 370%;
+    font-size: 52px;
 }
 
 .container__AboutMe--Text h1 {
     text-shadow: 1px 1px 3px black;
     -webkit-font-smoothing: antialiased!important;
     color: mediumaquamarine;
-    font-size: 290%;
+    font-size: 38px;
     font-weight: 300;
 }
 
@@ -354,7 +361,7 @@ details p {
 }
 
 .container__AboutMe--Text p {
-    font-size: 125%;
+    font-size: 19px;
     color: black;
 }
 
@@ -367,13 +374,13 @@ details p {
     text-align: center;
     padding: 20px;
     font-weight: 300;
-    font-size: 115%;
+    font-size: 16px;
 }
 
 .container__BackButton {
     position: fixed!important;
-    top: 92%;
-    left: 86%;
+    top: 92.5%;
+    left: 85%;
     z-index: 3;
 }
 
@@ -403,7 +410,7 @@ details p {
 }
 
 .container__AboutMe img {
-    width: 65%;
+    width: 60%;
 }
 
 .container__AboutMe::before {
@@ -476,6 +483,9 @@ details p {
     box-shadow: none;
 }
 
+
+
+
 @media only screen and (max-width:990px) {
     .py-5 {
         margin-top: 0px!important;
@@ -487,7 +497,7 @@ details p {
 
 @media only screen and (min-width:991px) {
     .container__Contact h2, .container__Map p, .container__Offer--Header h2 {
-        font-size: 150%!important;
+        font-size: 120%!important;
     }
 }
 
@@ -576,14 +586,14 @@ details p {
         box-shadow: 1px 1px 5px black!important;
     }
     details p {
-        font-size: 11.5px!important;
-        line-height: 14px!important;
+        font-size: 16px!important;
+        line-height: 18px!important;
     }
     summary {
         font-size: 150%!important;
     }
-    .container__Background--Header {
-        font-size: 10px;
+    .container__Background--Header h1 {
+        font-size: 24px;
     }
     .container__Background--Header button {
         font-size: 15px;
@@ -591,38 +601,37 @@ details p {
         animation: inherit;
     }
     .container__AboutMe--Header, .container__Offer, .container__PriceList, .container__Contact  {
-        font-size: 12px;
+        font-size: 14px;
     }
     .container__AboutMe--Text h1 {
-        font-size: 28px!important;
+        font-size: 32px!important;
     }
     .container__AboutMe--Text p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .container__AboutMe--IMG img {
         width: 60%!important;
     }
     .container__Offer--Header h2, .container__Contact h2 {
-        font-size: 12px!important;
+        font-size: 16px!important;
     }
     .container__Offer--Text {
-        font-size: 11px!important;
+        font-size: 13px!important;
     }
     details p{
         animation-name: inherit!important;
     }
     .disclaimer p {
-        font-size: 11px;
+        font-size: 12px;
     }
     .container__Footer p {
         font-size: 12px;
     }
     .container__Contact--media {
         width: 50%;
-        font-size: 10px;
     }
-    .email {
-        margin-left:-6px;
+    .container__Contact--media p {
+        font-size: 14.5px;
     }
     svg {
         width: 32px;
@@ -630,6 +639,16 @@ details p {
     }
     .logo {
         width: 50%!important;
+    }
+    .svg__email{
+        margin-left: -5%;
+    }
+    .email p {
+        margin-left: -20.5%;
+    }
+    iframe {
+        width: 70vw;
+        height: 30vh;
     }
 }
 

@@ -204,7 +204,7 @@ nav {
 }
 
 .PL img, .EN img {
-    width: 27px;
+    width: 22px;
     border: 1px solid black;
     margin-bottom: 3px;
 }
@@ -303,13 +303,13 @@ summary {
 }
 
 .borderSummary p {
-    line-height: 15px;
+    line-height: 14px;
 }
 
 details p {
     color: rgba(0, 0, 0, 0.8);
-    padding: 25px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 13px;
     font-weight: 600;
     animation: fadein 1.25s;
 }
@@ -335,6 +335,7 @@ svg {
     color:black;
     font-weight: 300;
     font-size: 14px;
+    font-size: 15px;
 }
 
 .container__AboutMe h1, .container__PriceList h1 {
@@ -587,8 +588,12 @@ svg {
         box-shadow: 1px 1px 5px black!important;
     }
     details p {
+
         font-size: 14px!important;
         line-height: 17px!important;
+        font-size: 16px!important;
+        line-height: 18px!important;
+
     }
     summary {
         font-size: 150%!important;

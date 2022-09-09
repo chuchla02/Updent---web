@@ -50,13 +50,18 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("scroll", () => {
+
   const button = document.getElementById('backbutton');
   const y = window.scrollY;
-  const showHeight = 110;
+  const showHeight = 100;
 
   if (y > showHeight) {
-    button.classList.remove("hidden"); 
-  } else { 
-    button.classList.add("hidden"); 
+  button.classList.remove("hidden")
+  button.classList.add("shown")
+  } else if ( y < showHeight) {
+    button.classList.remove("shown")
+    button.classList.add("hidden")
   }
-});
+}
+);
+

@@ -483,6 +483,17 @@ svg {
     box-shadow: none;
 }
 
+.reveal {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.75s all ease-in;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 
 
 
